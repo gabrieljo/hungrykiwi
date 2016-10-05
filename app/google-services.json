@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "89021261477",
+    "firebase_url": "https://hungry-kiwi.firebaseio.com",
+    "project_id": "hungry-kiwi",
+    "storage_bucket": "hungry-kiwi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89021261477:android:9e86e0c3cdce8ecf",
+        "android_client_info": {
+          "package_name": "app.me.hungrykiwi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89021261477-tq8kejbkf3gsvn6cp135rqrcgt684drg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.me.hungrykiwi",
+            "certificate_hash": "EAC9C96ABAE342F2DDD4CC0CD480CCCDAB3DAB6A"
+          }
+        },
+        {
+          "client_id": "89021261477-as7fbpk2uk2f8v5uv9nlribuoo7m62vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0fkUEkSzfUTDIX7VAXs65277n7eir7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89021261477-as7fbpk2uk2f8v5uv9nlribuoo7m62vb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
