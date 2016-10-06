@@ -1,4 +1,4 @@
-package app.me.hungrykiwi.model;
+package app.me.hungrykiwi.model.user;
 
 /**
  * Created by user on 10/3/2016.

@@ -1,4 +1,4 @@
-package app.me.hungrykiwi.model;
+package app.me.hungrykiwi.model.user;
 
 import com.google.gson.annotations.SerializedName;
 
