@@ -9,5 +9,15 @@
     <color name="light_grey">#666666</color>
     <color name="grey">#444444</color>
     <color name="green">#008b45</color>
+    <color name="yellowpink">#EFBCD5</color>
+    <color name="lightblue">#20A4F3</color>
+    <color name="lightgreen">#6BF178</color>
+    <color name="lightgrey">#eeeeee</color>
+    <color name="darker_background">#aa000000</color>
+    <color name="sub_main">#FF9CBD</color>
+    <color name="narrow_divider">#dddddd</color>
+    <color name="light_grey2">#999999</color>
+    <color name="btn_border">#dedee6</color>
+
 
 </resources>

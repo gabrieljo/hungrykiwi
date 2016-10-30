@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Minutes"
+            android:paddingLeft="4dp"
+            android:textColor="@color/light_grey"
+            android:textSize="14dp" />
+
+        <RadioGroup
+            android:id="@+id/rg_min"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/rb15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rb_state_change"
+                android:button="@null"
+                android:padding="@dimen/rb_padding"
+                android:text="15"
+                android:textColor="@drawable/rb_state_change" />
+
+            <RadioButton
+                android:id="@+id/rb30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/rb_state_change"
+                android:button="@null"
+                android:padding="@dimen/rb_padding"
+                android:text="30"
+                android:textColor="@drawable/rb_state_change" />
+
+            <RadioButton
+                android:id="@+id/rb45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/rb_state_change"
+                android:button="@null"
+                android:padding="@dimen/rb_padding"
+                android:text="45"
+                android:textColor="@drawable/rb_state_change" />
+
+            <RadioButton
+                android:id="@+id/rb60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/rb_state_change"
+                android:button="@null"
+                android:padding="@dimen/rb_padding"
+                android:text="60"
+                android:textColor="@drawable/rb_state_change" />
+
+            <RadioButton
+                android:id="@+id/rbAny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/rb_state_change"
+                android:button="@null"
+                android:padding="@dimen/rb_padding"
+                android:text="Any"
+                android:textColor="@drawable/rb_state_change" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Vegi"
+            android:paddingLeft="4dp"
+            android:textColor="@color/light_grey"
+            android:textSize="14dp" />
+
+        <RadioGroup
+            android:id="@+id/rg_vegi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/rbVegiYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rb_state_change"
+                android:button="@null"
+                android:padding="@dimen/rb_padding"
+                android:text="Yes"
+                android:textColor="@drawable/rb_state_change" />
+
+            <RadioButton
+                android:id="@+id/rbVegiNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/rb_state_change"
+                android:button="@null"
+                android:padding="@dimen/rb_padding"
+                android:text="No"
+                android:textColor="@drawable/rb_state_change" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

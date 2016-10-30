@@ -19,5 +19,4 @@ class AuthController extends Controller{
     public function postLogin() {
     	return $this -> auth -> start();
     }
-
 }

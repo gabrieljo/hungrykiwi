@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/light_grey2"
+        android:layout_marginTop="8dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:numStars="5"
+        android:progressDrawable="@drawable/ratingbar"
+        android:stepSize="1"
+        android:rating="3"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/textEval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Average"
+        android:textColor="@color/light_grey2"
+        android:gravity="center"
+        android:textSize="14dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/light_grey2"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:hint="@string/leave_recipe_comment"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave the comment"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:textColor="@color/light_grey"
+        android:background="@drawable/round_rect_stroke_grey"/>
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:padding="8dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/light_grey"
+        android:background="@drawable/round_rect_stroke_grey" />
+
+</LinearLayout>

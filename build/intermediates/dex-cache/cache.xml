@@ -3,57 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_9a7253f6fd6f74f87944ad0a09f68df4ffe195c8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_ff5aa3d6d42f16ece287339eafc4360a5f117b99\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a69735fb31405abb6c5b972e1b2bb4f918f620e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_d38e9cb1185dca53687b867e5745f5435a0e99d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_15b6ed755332ce1d29bc50d275126be66426c21b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_edb215a54a032709c1be449a129cfb7b0537fb2e\classes.dex" />
+        revision="24.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_2e72e302ffd6b79186378a784ce0ab56c1009f7d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,84 +21,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_a05f546eace6bc62554b8eb691f0e03ffb5c81df\classes.dex" />
+        revision="24.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_ece3a81f74578821ad041f16641d05979f10657b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="787871951412550519b0222aba3c9df4cea49875">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_be4a0fdf7998c2e2b4dcfd7163a508bc7a4a398f\classes.dex" />
+        revision="24.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_1393840736e6882ffe35bc491551511dae9c756b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_cb802c803b6d208fb9395a645a98082cca0e0a7d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3a7003b0011ef0a09bb5041710a50db5301bc4a2">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1c582d7a900f5a4a8f078a2ae4c2245023a765a5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_7f0f830790b2e68560a7128f475f39e8c17e4dc6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_bd5bfc885c2373a2b1b39b12ac1ef8e59bee10c8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_2e72e302ffd6b79186378a784ce0ab56c1009f7d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.6.1_b6985dea26e48d7f55d039f66815e4c14cad3aec\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9e28c577bd16fa317dc2f6a438a1a06ee7da1223">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f0156492632433204340417b07317719bcae1c34\classes.dex" />
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_051c707a6195da3f4782249e25904eabcfde7c92\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,12 +66,534 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d1ddba984ff876e61c4b9be66518becb184776db">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1c582d7a900f5a4a8f078a2ae4c2245023a765a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_15b6ed755332ce1d29bc50d275126be66426c21b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_d8e183332bfcf27cf2e6658b7dc21b41df78ef83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_a05f546eace6bc62554b8eb691f0e03ffb5c81df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_7c7eaa2196e4a231ab471d4dd0f68d25f73c94b8\classes.dex" />
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_3972e103cc9f33ae1aa92227a9766aeb257ceaf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_2425e726625ffa0ccb1dbcf766e3b875d12d97a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_f9ef1d452b2b3d4dd28f4051a033201c89c98e3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_56487dcc601537ec955eea625d9774ba24b2cff3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.6.1_b6985dea26e48d7f55d039f66815e4c14cad3aec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_0e89be7b68df534ccbd779c7a8cbf01391295778\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_a151491fecfa1f7251a78eecb1bbae5c61f3f484\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_4fa47323862326a997657225991f4d5e9d7fa2cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_ff5aa3d6d42f16ece287339eafc4360a5f117b99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_4fa47323862326a997657225991f4d5e9d7fa2cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_226314900c84194b7d805e48ccf6bc06d80a0431\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_b4842475b85130bc304ce6bd17bc4b612f8418da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_aa59d84238af510d13f53ecc2bc2c02160f4a095\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.6.1_b6985dea26e48d7f55d039f66815e4c14cad3aec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_b4842475b85130bc304ce6bd17bc4b612f8418da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5b43e1830517dfefa7591f9fe044cf2d43989f40">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f0156492632433204340417b07317719bcae1c34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_aa59d84238af510d13f53ecc2bc2c02160f4a095\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.6.1_8fc035c2a4961d417156c1bf714c06a2888881ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_ff5aa3d6d42f16ece287339eafc4360a5f117b99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_39a95b4e685b5de269c1ee68159388a2a01e7763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_e4d14c5c88e374387b624ff737d78dccce142dfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2fb63e2abd412d1f0b686b54f89ea5ef7f5373ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_a151491fecfa1f7251a78eecb1bbae5c61f3f484\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_3972e103cc9f33ae1aa92227a9766aeb257ceaf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_2425e726625ffa0ccb1dbcf766e3b875d12d97a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_069b487804e39d017cd9e06aa3d13d50dc62e28b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_1cb67a1a5ff343a7ddc6cefec4d0194257c780d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_d8e183332bfcf27cf2e6658b7dc21b41df78ef83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_f9ef1d452b2b3d4dd28f4051a033201c89c98e3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_15b6ed755332ce1d29bc50d275126be66426c21b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_a05f546eace6bc62554b8eb691f0e03ffb5c81df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_39a95b4e685b5de269c1ee68159388a2a01e7763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="197ec9e473ccc47377f80b9148d098083e7261c1">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f0156492632433204340417b07317719bcae1c34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.17.0_62a576ae9300c8761c8e57cc332e9d770e799669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.6.1_14be0a35b88ad5221c35c1dcb8a9e0007687946d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_9df28cf748058b487b3fda3cadbb7cf1ac4134d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.github.nguyenhoanglam\ImagePicker\1.1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="524e40f65b271142576c3bf8eb0cfb7065a77705">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.nguyenhoanglam-ImagePicker-1.1.2_6bf79ee05de2b4f528a3c885fca91a74a5e44999\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_cf44fa92543714be736617e61905e7cf9e12d00a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_090479e0cea32f5b411979722bb76eaf967b0b6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.6.1_14be0a35b88ad5221c35c1dcb8a9e0007687946d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a69735fb31405abb6c5b972e1b2bb4f918f620e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_e5672a56e938483dd0718acf1ef2a896df2d0afd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_6bd15ef5d05855e8bc02f35c0a6dd85f7e1f88b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_cb802c803b6d208fb9395a645a98082cca0e0a7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_9df28cf748058b487b3fda3cadbb7cf1ac4134d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_fcff3dcde82c5ff7ba4bde0c7e8c4f2c5355976f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.github.nguyenhoanglam\ImagePicker\1.1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="524e40f65b271142576c3bf8eb0cfb7065a77705">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.nguyenhoanglam-ImagePicker-1.1.2_6bf79ee05de2b4f528a3c885fca91a74a5e44999\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_cb802c803b6d208fb9395a645a98082cca0e0a7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.1_63bc98ea730a9028b1a605590441a4abe431caa7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e522d56ea6ba2bb5027838fd4caef1ae8c38945e">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1c582d7a900f5a4a8f078a2ae4c2245023a765a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a69735fb31405abb6c5b972e1b2bb4f918f620e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_cf44fa92543714be736617e61905e7cf9e12d00a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_2e72e302ffd6b79186378a784ce0ab56c1009f7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2fb63e2abd412d1f0b686b54f89ea5ef7f5373ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_069b487804e39d017cd9e06aa3d13d50dc62e28b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,6 +606,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.17.0_62a576ae9300c8761c8e57cc332e9d770e799669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_0e89be7b68df534ccbd779c7a8cbf01391295778\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -192,21 +633,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Program Files\Android\Android Studio1\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_ea3566817aae63c8e87ab16e4d1ccfdc8d788289\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_04ddbefdef5e9fb85630675035f5d58dd5a993b3\classes.dex" />
+        revision="24.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_56487dcc601537ec955eea625d9774ba24b2cff3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -219,6 +651,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_fcff3dcde82c5ff7ba4bde0c7e8c4f2c5355976f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -228,30 +669,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_b3d08b4bbf526c0dad4a697076fe1482dcbcbae0\classes.dex" />
+        revision="24.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_1dcb4b3cde0aaf377969481c47050a2b79f7d7a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_3b05c54bffd953b5581391bd2adaf7a7d7b38758\classes.dex" />
+        revision="24.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_051c707a6195da3f4782249e25904eabcfde7c92\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.16.0\jars\classes.jar"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="df6791bb4f5402ed138d3dd1385f8e2bc3ac8728">
-        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.16.0_d203b3ed5dabfe30409e02f59c2c824f41e03c9f\classes.dex" />
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_ece3a81f74578821ad041f16641d05979f10657b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\user\andprj\HungryKiwi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_a1d460b08bfe30516f905e9145a609a0841b701f\classes.dex" />
     </item>
 
 </items>

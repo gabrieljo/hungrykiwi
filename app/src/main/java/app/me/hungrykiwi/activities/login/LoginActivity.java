@@ -1,10 +1,15 @@
 package app.me.hungrykiwi.activities.login;
 
+import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
+import android.os.Build;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
@@ -20,6 +25,7 @@ import com.facebook.FacebookException;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.Profile;
+import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
@@ -33,16 +39,21 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.OptionalPendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Scope;
+import com.google.android.gms.common.api.Status;
+
+import junit.runner.Version;
 
 import org.json.JSONObject;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import app.me.hungrykiwi.R;
 import app.me.hungrykiwi.activities.main.MainActivity;
 import app.me.hungrykiwi.http.Config;
+import app.me.hungrykiwi.model.user.User;
 import app.me.hungrykiwi.service.UserService;
 import app.me.hungrykiwi.utils.Utility;
 
@@ -53,7 +64,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
     // --- GOOGLE --- ///
     GoogleApiClient mGoogleClient;
-    int RC_GOOGLE_SIGN_IN = 1; // google sign in request code for onResultActivity
+    public int RC_GOOGLE_SIGN_IN = 1; // google sign in request code for onResultActivity
+    public int RC_LOGOUT = 2; // logout from next main page
 
 
     @Override
@@ -61,10 +73,53 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        // logout
+        if (this.getIntent() != null && this.getIntent().getBooleanExtra("logout", false) == true)
+            this.logout();
+        // request permission for marshmallow version or newer
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP_MR1) this.permission();
 
         this.initGoogle(); // init google log in
         this.initFace(); // init facebook log in
+    }
 
+
+    /**
+     * request permission for marshmallow ro newer version
+     */
+    public void permission() {
+        ArrayList<String> requestList = new ArrayList<>();
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED)
+            requestList.add(Manifest.permission.CAMERA);
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
+            requestList.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
+            requestList.add(Manifest.permission.READ_EXTERNAL_STORAGE);
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED)
+            requestList.add(Manifest.permission.ACCESS_FINE_LOCATION);
+
+
+        if (requestList.size() > 0) {
+            int count = requestList.size();
+            String[] requests = new String[count];
+            for (int i = 0; i < count; i++) {
+                requests[i] = requestList.get(i);
+            }
+            ActivityCompat.requestPermissions(this, requests, 0);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == 0) {
+            int count = grantResults.length;
+            for (int i = 0; i < count; i++) {
+                if (grantResults[i] != PackageManager.PERMISSION_GRANTED) {
+                    this.finish(); // exit application
+                }
+            }
+        }
     }
 
     /**
@@ -83,6 +138,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 .build();
 
         this.mGoogleClient.connect();
+
 
         SignInButton btnGoogle = (SignInButton) this.findViewById(R.id.btnGoogle);
         btnGoogle.setScopes(gso.getScopeArray());
@@ -203,8 +259,36 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     }
 
 
+    /**
+     * logout
+     */
     public void logout() {
+        User user = User.getAppUser();
+        if (user != null) {
+            int provider = user.getProvider();
+            if (provider == Config.LoginProvider.FACEBOOK) { // facebook logout
+                LoginManager.getInstance().logOut();
+                User.setAppUser(null);
+            } else if (provider == Config.LoginProvider.GOOGLE) { // google logout
+                this.mGoogleClient.registerConnectionCallbacks(new GoogleApiClient.ConnectionCallbacks() {
+                    @Override
+                    public void onConnected(@Nullable Bundle bundle) {
+                        Auth.GoogleSignInApi.signOut(mGoogleClient).setResultCallback(new ResultCallback<Status>() {
+                            @Override
+                            public void onResult(Status status) {
+                                User.setAppUser(null);
+                            }
+                        });
+                    }
 
+                    @Override
+                    public void onConnectionSuspended(int i) {
+
+                    }
+                });
+                this.mGoogleClient.connect();
+            }
+        }
     }
 
 
@@ -219,6 +303,17 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             mGoogleClient.disconnect();
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+
+        if (this.mFaceTokenTracker != null) // facebook token tracker
+            this.mFaceTokenTracker.startTracking();
+
+        if (this.mGoogleClient.isConnected() == false) // disconnect google
+            mGoogleClient.connect();
+    }
+
     /**
      * google & facebook login result
      *
@@ -231,9 +326,12 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_GOOGLE_SIGN_IN) {
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-
             this.handleGoogleResult(result);
-        } else {
+        } else if (requestCode == RC_LOGOUT && data !=null && data.getBooleanExtra("logout", false) == true) {
+            this.logout();
+        } else if(requestCode == RC_LOGOUT) {
+            return;
+        } else{
             this.mFaceManager.onActivityResult(requestCode, resultCode, data);
         }
     }
@@ -263,23 +361,15 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         switch (view.getId()) {
             case R.id.btnGoogle: // goolg sign in
                 startActivityForResult(Auth.GoogleSignInApi.getSignInIntent(this.mGoogleClient), this.RC_GOOGLE_SIGN_IN);
-//                    startActivity(new Intent(this, MainActivity.class));
                 break;
-//                Auth.GoogleSignInApi.signOut(mGoogleClient).setResultCallback(
-//                        new ResultCallback<Status>() {
-//                            @Override
-//                            public void onResult(Status status) {
-//                                // ...
-//                            }
-//                        });
-//                break;
         }
     }
-
 
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
         new Utility().toast(this, getString(R.string.google_login_fail));
     }
+
+
 }

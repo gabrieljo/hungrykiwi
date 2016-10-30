@@ -29,11 +29,10 @@ class User extends Authenticatable
     ];
 
     public static function login(Request $req) {
-        $user = User::where('email', '=', $req -> email) -> first();
+        $user = User::where('email', $req -> email) -> first();
 
         if(count($user) > 0) {
             return $user;
-            
         } else {
             $info = [
                 'email' => $req -> email,
@@ -45,8 +44,23 @@ class User extends Authenticatable
                 'provider' => $req -> provider,
             ];
             return User::create($info);
-            
         }
+    }
+
+    public static function getUserbyToken($token) {
+        return User::find(LoginToken::where('token', $token) -> first() -> user_id);
+    }
+    public static function getUserIdbyToken($token) {
+        return LoginToken::where('token', $token) -> first() -> user_id;
+    }
+
+    public function getRouteKeyName() {
+        return 'id'; // static::where('id', $wildcard);
+    }
+
+    public static function getUserBy($token) {
+        $token = LoginToken::where('token', '=', $token) -> first();
+        return static::where('id', $token->user_id) -> first();
     }
 
 

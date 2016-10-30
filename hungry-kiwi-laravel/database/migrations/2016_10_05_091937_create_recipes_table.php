@@ -18,10 +18,15 @@ class CreateRecipesTable extends Migration
             $table->integer('user_id') -> unsigned() -> index();
             $table->string('name');
             $table->tinyInteger('type');
+            $table->tinyInteger('is_vegi');
             $table->Integer('require_min');
+            $table->Integer('comment_num');
+            $table->Integer('view');
+            $table->float('rating');
             $table->string('ingredient');
             $table->text('content');
-            $table->boolean('is_img');
+            $table->string('img');
+            $table->tinyInteger('is_img');
             $table->timestamps();
         });
     }

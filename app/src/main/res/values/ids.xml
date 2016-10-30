@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="key_content" type="id">1001</item>
+    <item name="key_comment_id" type="id">1002</item>
+    <item name="key_post_id" type="id">1003</item>
+    <item name="key_post" type="id">1004</item>
+</resources>

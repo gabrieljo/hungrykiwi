@@ -8,4 +8,12 @@
     <string name="google_login_fail">Google Login Failed</string>
     <string name="facebook_login_fail">Facebook Login Failed</string>
     <string name="cancel_login">User cancle login</string>
+    <string name="key_attached_images">attached_images</string>
+    <string name="cancel_like">cancel_like</string>
+    <string name="success">success</string>
+    <string name="key_recipe_min">recipe_filter_min</string>
+    <string name="key_recipe_vegi">recipe_filter_vegi</string>
+    <string name="key_recipe_critetial">recipe_filter_criterial</string>
+    <string name="key_recipe_id">recipe_id</string>
+    <string name="leave_recipe_comment">Have you cooked? Leave the comment!</string>
 </resources>

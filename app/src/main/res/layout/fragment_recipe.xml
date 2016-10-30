@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="recipe" />
-</LinearLayout>
+        android:layout_height="match_parent"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_plus"
+        app:layout_behavior="app.me.hungrykiwi.component.viewutil.FabBehavior"
+        app:backgroundTint="@color/light_main"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"/>
+
+    <include
+        android:id="@+id/frameFabs"
+        layout="@layout/fab_group" />
+</android.support.design.widget.CoordinatorLayout>

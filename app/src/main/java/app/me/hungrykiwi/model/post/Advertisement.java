@@ -3,7 +3,7 @@ package app.me.hungrykiwi.model.post;
 /**
  * Created by peterlee on 2016-09-13.
  */
-public class Advertisement extends SNS{
+public class Advertisement{
     private String name;
     private String time;
     private String imgUserUrl;

@@ -8,7 +8,8 @@ import com.google.gson.annotations.SerializedName;
  */
 public class User {
     private static User appUser; // app user
-
+    @SerializedName("id")
+    private int id; // email
     @SerializedName("email")
     private String email; // email
     @SerializedName("first_name")
@@ -21,15 +22,53 @@ public class User {
     private String imgPath; // image url
     @SerializedName("cover_img")
     private String imgCover; // image url
+    @SerializedName("provider")
+    private int provider; // provider
+
     private String name;
 
 
-
-
+    private Restr restr;
     public static User getAppUser() {
         if(User.appUser == null)
             appUser = new User();
         return User.appUser;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getProvider() {
+        return provider;
+    }
+
+    public void setProvider(int provider) {
+        this.provider = provider;
+    }
+
+    public String getImgCover() {
+        return imgCover;
+    }
+
+    public void setImgCover(String imgCover) {
+        this.imgCover = imgCover;
+    }
+
+    public Restr getRestr() {
+        return restr;
+    }
+
+    public void setRestr(Restr restr) {
+        this.restr = restr;
+    }
+
+    public static void setAppUser(User user) {
+        User.appUser = user;
     }
 
     public String getEmail() {
@@ -74,12 +113,22 @@ public class User {
 
     @Override
     public String toString() {
-        return "EMAIL : "+email
+        StringBuilder builder = new StringBuilder();
+        builder.append("\nUSER------------------------------\n"+
+                "EMAIL : "+email
+                +"\nID : "+id
+                +"\nProvider : "+provider
                 +"\nLAST NAME : "+lName
-                +"\nLAST NAME : "+fName
+                +"\nFIRST NAME : "+fName
+                +"\nNAME : "+name
                 +"\nIS RESTRAURANT : "+isRestr
                 +"\nIMAGE PATH : "+imgPath
-                +"\nCOVER IMAGE PATH : "+imgCover;
+                +"\nCOVER IMAGE PATH : "+imgCover+"\n");
+
+        if(this.restr != null) {
+            builder.append(this.restr.toString());
+        }
+        return builder.toString();
     }
 
     public String getName() {

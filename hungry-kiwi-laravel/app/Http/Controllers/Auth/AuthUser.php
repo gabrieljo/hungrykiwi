@@ -24,14 +24,12 @@ class AuthUser {
 
 		if($this -> verifyToken()) {
 			$user = User::login($this -> req);
-			$this -> activeToken($user);
-			$json = [
-				'token' => $this->req->token,
-				'user' => json_decode($user -> toJson(), true),
-			];
-			return json_encode($json);
-			// return 'abc';
-		
+			$token = $this -> activeToken($user);
+			return [
+			    'user' => $user,
+                'token' => $token,
+            ];
+
 		} else {
 			return 'TOKEN INVALID';
 		}
@@ -81,12 +79,17 @@ class AuthUser {
 		if(count($token) > 0 ) {
 			$token -> delete();
 		}
-		
+        date_default_timezone_set('Pacific/Auckland');
+
+		$hungry_token = 'Bearer '.bcrypt(time() + $user -> email);
 		$info = [
 			'user_id' => $user -> id,
-			'token' => $this -> req -> token,
+			'token' => $hungry_token,
 		];
 
 		LoginToken::create($info);
+		return $hungry_token;
 	}
+
+	
 }

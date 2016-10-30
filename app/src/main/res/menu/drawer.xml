@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/drawer1"
+            android:id="@+id/favorite"
             android:icon="@mipmap/ic_favorite"
             android:title="Favorite"/>
         <item
-            android:id="@+id/drawer2"
+            android:id="@+id/setting"
             android:icon="@mipmap/ic_setting"
             android:title="Setting" />
         <item
-            android:id="@+id/drawer3"
+            android:id="@+id/logout"
             android:icon="@mipmap/ic_logout"
             android:title="Logout"/>
     </group>

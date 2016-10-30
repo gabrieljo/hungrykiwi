@@ -17,7 +17,8 @@ class CreateRestrsTable extends Migration
             $table->increments('id');
             $table->integer('user_id') -> unsigned() -> index();
             $table->string('name');
-            $table->string('intro');
+            $table->string('img');
+            $table->text('intro');
             $table->string('region');
             $table->string('town');
             $table->string('street');
@@ -25,7 +26,9 @@ class CreateRestrsTable extends Migration
             $table->string('mobile');
             $table->double('lat');
             $table->double('long');
-            $table->boolean('is_img');
+            $table->integer('is_img');
+            $table->integer('views');
+            $table->float('rating');
             $table->string('menu_table');
             $table->timestamps();
         });
